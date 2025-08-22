@@ -260,6 +260,11 @@
    /* border-right: 2px solid #5a6fd8; */
 }
 
+.score-table th .medal-icon {
+   font-size: 26px;
+   vertical-align: middle;
+}
+
 .score-table tfoot td {
    background: #28a745;
    color: white;

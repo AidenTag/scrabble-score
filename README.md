@@ -23,8 +23,8 @@ A modern, responsive React application for tracking Scrabble game scores with a 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/scrabble-score-sheet.git
-cd scrabble-score-sheet
+git clone https://github.com/AidenTag/scrabble-score.git
+cd scrabble-score
 ```
 
 2. Install dependencies:

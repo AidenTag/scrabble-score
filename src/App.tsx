@@ -68,6 +68,26 @@ function App() {
       return Math.max(...players.map((player) => player.scores.length), 0);
    };
 
+   const getTopPlayers = () => {
+      return [...players].sort((a, b) => b.total - a.total).slice(0, 3);
+   };
+
+   const getMedalIcon = (playerId: string) => {
+      const topPlayers = getTopPlayers();
+      const playerIndex = topPlayers.findIndex((player) => player.id === playerId);
+
+      switch (playerIndex) {
+         case 0:
+            return "🥇";
+         case 1:
+            return "🥈";
+         case 2:
+            return "🥉";
+         default:
+            return "";
+      }
+   };
+
    return (
       <div className="App">
          <header className="App-header">
@@ -129,7 +149,9 @@ function App() {
                                     <strong>Players</strong>
                                  </th>
                                  {players.map((player) => (
-                                    <th key={player.id}>{player.name}</th>
+                                    <th key={player.id}>
+                                       {player.name} <span className="medal-icon">{getMedalIcon(player.id)}</span>
+                                    </th>
                                  ))}
                               </tr>
                            </thead>

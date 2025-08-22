@@ -50,11 +50,11 @@
       "scoring",
       "table"
    ],
-   "author": "Your Name",
+   "author": "AidenTag",
    "license": "MIT",
    "repository": {
       "type": "git",
-      "url": "https://github.com/yourusername/scrabble-score-sheet.git"
+      "url": "https://github.com/AidenTag/scrabble-score.git"
    },
-   "homepage": "https://yourusername.github.io/scrabble-score-sheet"
+   "homepage": "https://aidentag.github.io/scrabble-score"
 }
