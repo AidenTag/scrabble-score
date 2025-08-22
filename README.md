@@ -1,46 +1,95 @@
-# Getting Started with Create React App
+# 🅰️ Scrabble Score Sheet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive React application for tracking Scrabble game scores with a clean table interface.
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+-  **Player Management**: Add and remove players before starting the game
+-  **Table Format**: Clean, organized table layout with players as columns and rounds as rows
+-  **Real-time Scoring**: Enter scores directly into table cells with automatic total calculation
+-  **Easy Round Addition**: Simple "+ Add Round" button to add new scoring rounds
+-  **Responsive Design**: Works seamlessly on desktop and mobile devices
+-  **Modern UI**: Beautiful gradient background with clean, professional styling
 
-### `npm start`
+## 🚀 Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+-  Node.js (version 14 or higher)
+-  npm or yarn
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+```bash
+git clone https://github.com/yourusername/scrabble-score-sheet.git
+cd scrabble-score-sheet
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Start the development server:
 
-### `npm run eject`
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎮 How to Use
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Setting Up a Game
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Add players by typing their names and clicking "Add Player"
+2. Remove players if needed before starting
+3. Click "Start Game" when you have at least 2 players
 
-## Learn More
+### During the Game
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Enter scores directly into the table cells for each round
+2. Totals automatically update as you type
+3. Click "+ Add Round" to add new scoring rounds
+4. Use "New Game" to reset and start over
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🛠️ Built With
+
+-  **React 18** - Frontend framework
+-  **TypeScript** - Type safety and better development experience
+-  **CSS3** - Modern styling with gradients and animations
+-  **HTML5** - Semantic markup
+
+## 📱 Screenshots
+
+The app features a clean table interface with:
+
+-  Fixed header row showing player names
+-  Scrollable middle section for round scores
+-  Fixed footer row showing running totals
+-  Responsive design for all screen sizes
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+-  Built with React and modern web technologies
+-  Designed for Scrabble enthusiasts who want a digital alternative to paper score sheets
+-  Inspired by the classic board game's scoring system
+
+---
+
+**Happy Scoring! 🎯**
